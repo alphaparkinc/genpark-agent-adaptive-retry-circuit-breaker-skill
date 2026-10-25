@@ -1,0 +1,13 @@
+{
+  "name": "genpark-agent-adaptive-retry-circuit-breaker-skill",
+  "version": "1.0.0",
+  "description": "Enterprise-grade circuit breaker with adaptive exponential backoff, jitter, failure count thresholds",
+  "mcp": {
+    "server": "mcp_server.py",
+    "tools": [
+      "check_execution_allowed",
+      "report_result",
+      "get_breaker_state"
+    ]
+  }
+}
