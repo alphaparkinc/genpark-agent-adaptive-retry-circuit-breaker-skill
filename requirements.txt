@@ -1,0 +1,2 @@
+# Zero external dependencies
+# Built entirely on the Python Standard Library (3.9+)
